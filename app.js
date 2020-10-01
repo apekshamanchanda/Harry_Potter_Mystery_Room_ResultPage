@@ -13,7 +13,7 @@ for (x=0;x<4;x++)
       
       
   
-    a.title = "Please click here ";  
+   
 if(check==true)
 
 {
