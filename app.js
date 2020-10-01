@@ -10,10 +10,7 @@ for (x=0;x<4;x++)
       check=true;
 
 }
-if(check==true)
-
-{
-    var a = document.createElement('a');  
+      var a = document.createElement('a');  
                   
     var link = document.createTextNode("Please click here"); 
       
@@ -22,6 +19,10 @@ if(check==true)
       
   
     a.title = "Please click here ";  
+if(check==true)
+
+{
+    
       
     
     a.href = "https://www.geeksforgeeks.org";  
@@ -31,17 +32,7 @@ if(check==true)
 }
 else{
 
-    var a = document.createElement('a');  
-                  
-  
-    var link = document.createTextNode("Please click here"); 
-      
     
-    a.appendChild(link);  
-      
-   
-    a.title = "Please click here";  
-      
     
     a.href = "https://www.google.com/";  
       
