@@ -10,12 +10,7 @@ for (x=0;x<4;x++)
       check=true;
 
 }
-      var a = document.createElement('a');  
-                  
-    var link = document.createTextNode("Please click here"); 
       
-    
-    a.appendChild(link);  
       
   
     a.title = "Please click here ";  
@@ -25,19 +20,16 @@ if(check==true)
     
       
     
-    a.href = "https://www.geeksforgeeks.org";  
-      
-    
-    document.body.appendChild(a);  
+    document.getElementById("result").innerHTML="Click here";
+    document.getElementById("result").href = "https://www.geeksforgeeks.org";
 }
 else{
 
-    
-    
-    a.href = "https://www.google.com/";  
-      
+       document.getElementById("result").innerHTML="Click here";
+    document.getElementById("result").href = "https://www.google.com/";
    
-    document.body.appendChild(a);  
+    
+   
 
 }
 
